@@ -6,7 +6,6 @@ const rentalSchema = mongoose.Schema(
       {
         propertyName: {
           type: String,
-          unique: true,
           required: true,
         },
         property: {
